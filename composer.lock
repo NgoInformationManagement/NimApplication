@@ -1605,12 +1605,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/NgoInformationManagement/CoreBundle.git",
-                "reference": "bd4ab16f3bd0d353dcd4f96cb8f69d99005a9a34"
+                "reference": "2d7f18f406decdab0bb096dac07d7b4745536c1e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/NgoInformationManagement/CoreBundle/zipball/bd4ab16f3bd0d353dcd4f96cb8f69d99005a9a34",
-                "reference": "bd4ab16f3bd0d353dcd4f96cb8f69d99005a9a34",
+                "url": "https://api.github.com/repos/NgoInformationManagement/CoreBundle/zipball/2d7f18f406decdab0bb096dac07d7b4745536c1e",
+                "reference": "2d7f18f406decdab0bb096dac07d7b4745536c1e",
                 "shasum": ""
             },
             "require": {
@@ -1653,7 +1653,7 @@
                 "ngo",
                 "nim"
             ],
-            "time": "2014-05-07 22:46:15"
+            "time": "2014-05-08 15:53:27"
         },
         {
             "name": "nim/form-bundle",
@@ -1721,12 +1721,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/NgoInformationManagement/MissionBundle.git",
-                "reference": "1bc52b069204f9a49d817e519e58cd135b1cf5cd"
+                "reference": "30bdd126434fabfe3b6fd25eaafdde96c083fd80"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/NgoInformationManagement/MissionBundle/zipball/1bc52b069204f9a49d817e519e58cd135b1cf5cd",
-                "reference": "1bc52b069204f9a49d817e519e58cd135b1cf5cd",
+                "url": "https://api.github.com/repos/NgoInformationManagement/MissionBundle/zipball/30bdd126434fabfe3b6fd25eaafdde96c083fd80",
+                "reference": "30bdd126434fabfe3b6fd25eaafdde96c083fd80",
                 "shasum": ""
             },
             "require": {
@@ -1770,7 +1770,7 @@
                 "ngo",
                 "nim"
             ],
-            "time": "2014-05-07 22:40:49"
+            "time": "2014-05-10 15:40:58"
         },
         {
             "name": "nim/vaccine-bundle",
@@ -1779,16 +1779,15 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/NgoInformationManagement/VaccineBundle.git",
-                "reference": "2a259a7f15f1c2c4253ebf5fb9d317c684c3db7b"
+                "reference": "1cf3d2edaf27f8b0934a2b4c191375b4b3e33e9e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/NgoInformationManagement/VaccineBundle/zipball/2a259a7f15f1c2c4253ebf5fb9d317c684c3db7b",
-                "reference": "2a259a7f15f1c2c4253ebf5fb9d317c684c3db7b",
+                "url": "https://api.github.com/repos/NgoInformationManagement/VaccineBundle/zipball/1cf3d2edaf27f8b0934a2b4c191375b4b3e33e9e",
+                "reference": "1cf3d2edaf27f8b0934a2b4c191375b4b3e33e9e",
                 "shasum": ""
             },
             "require": {
-                "nim/core-bundle": "0.1.*@dev",
                 "nim/form-bundle": "0.1.*@dev",
                 "php": ">=5.3.3",
                 "stof/doctrine-extensions-bundle": "~1.1@dev",
@@ -1828,7 +1827,7 @@
                 "nim",
                 "vaccine"
             ],
-            "time": "2014-05-04 21:31:57"
+            "time": "2014-05-10 15:40:58"
         },
         {
             "name": "nim/web-bundle",
@@ -1837,12 +1836,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/NgoInformationManagement/WebBundle.git",
-                "reference": "d02f3395c59f4d72b31cbb17052c3651246c810c"
+                "reference": "b996eebd93a1dd84b029dec222e8ff769a87bb48"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/NgoInformationManagement/WebBundle/zipball/d02f3395c59f4d72b31cbb17052c3651246c810c",
-                "reference": "d02f3395c59f4d72b31cbb17052c3651246c810c",
+                "url": "https://api.github.com/repos/NgoInformationManagement/WebBundle/zipball/b996eebd93a1dd84b029dec222e8ff769a87bb48",
+                "reference": "b996eebd93a1dd84b029dec222e8ff769a87bb48",
                 "shasum": ""
             },
             "require": {
@@ -1879,7 +1878,7 @@
                 "nim",
                 "web"
             ],
-            "time": "2014-05-07 22:40:49"
+            "time": "2014-05-10 15:48:46"
         },
         {
             "name": "nim/worker-bundle",
@@ -1888,12 +1887,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/NgoInformationManagement/WorkerBundle.git",
-                "reference": "cb3ea7128201122a1e5391a890318a905039604e"
+                "reference": "e16f1de4b9b4f2b18bb6cd6e8f964ec074fcea9d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/NgoInformationManagement/WorkerBundle/zipball/cb3ea7128201122a1e5391a890318a905039604e",
-                "reference": "cb3ea7128201122a1e5391a890318a905039604e",
+                "url": "https://api.github.com/repos/NgoInformationManagement/WorkerBundle/zipball/e16f1de4b9b4f2b18bb6cd6e8f964ec074fcea9d",
+                "reference": "e16f1de4b9b4f2b18bb6cd6e8f964ec074fcea9d",
                 "shasum": ""
             },
             "require": {
@@ -1936,7 +1935,7 @@
                 "ngo",
                 "nim"
             ],
-            "time": "2014-05-07 22:40:49"
+            "time": "2014-05-10 15:51:30"
         },
         {
             "name": "pagerfanta/pagerfanta",
@@ -2480,12 +2479,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Sylius/SyliusResourceBundle.git",
-                "reference": "8a1f7c1220d350bbf602ee25a5f6589ef3b4a1e1"
+                "reference": "aae458193623b8f4ed71919a9eda2fa35b46a15c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Sylius/SyliusResourceBundle/zipball/8a1f7c1220d350bbf602ee25a5f6589ef3b4a1e1",
-                "reference": "8a1f7c1220d350bbf602ee25a5f6589ef3b4a1e1",
+                "url": "https://api.github.com/repos/Sylius/SyliusResourceBundle/zipball/aae458193623b8f4ed71919a9eda2fa35b46a15c",
+                "reference": "aae458193623b8f4ed71919a9eda2fa35b46a15c",
                 "shasum": ""
             },
             "require": {
@@ -2549,7 +2548,7 @@
                 "storage",
                 "sylius"
             ],
-            "time": "2014-04-27 04:02:03"
+            "time": "2014-05-30 15:26:51"
         },
         {
             "name": "symfony/assetic-bundle",

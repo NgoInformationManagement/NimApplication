@@ -53,9 +53,6 @@ doctrine:
         user:     %database_user%
         password: %database_password%
         charset:  UTF8
-        # if using pdo_sqlite as your database driver, add the path in parameters.yml
-        # e.g. database_path: %kernel.root_dir%/data/data.db3
-        # path:     %database_path%
 
     orm:
         auto_generate_proxy_classes: %kernel.debug%
@@ -122,3 +119,28 @@ nim_core:
 # NiM vaccine configuration
 nim_vaccine:
     driver: doctrine/orm
+
+jms_serializer:
+    metadata:
+        auto_detection: true
+
+    property_naming:
+        separator: _
+        lower_case: true
+
+fos_rest:
+    disable_csrf_role: ROLE_API
+    serializer:
+        serialize_null: true
+    routing_loader:
+        default_format: json
+    view:
+        formats:
+            html : true
+            json: true
+#        view_response_listener: force
+#        failed_validation: HTTP_BAD_REQUEST
+    format_listener:
+        rules:
+            - { path: '^/api/', priorities: [ html, json, xml ], fallback_format: html, prefer_extension: true  }
+            - { path: '^/', priorities: [ 'html', 'css', 'javascript', '*/*'], fallback_format: html, prefer_extension: true }

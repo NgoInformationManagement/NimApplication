@@ -1,10 +1,17 @@
 # NiM web bundle routes
 nim_web:
     resource: "@NIMWebBundle/Resources/config/routing.yml"
+    prefix: /admin
+
+# NiM api bundle routes
+nim_api:
+    resource: "@NIMCoreBundle/Resources/config/routing.yml"
+    prefix: /api
 
 # FOS user routes
 fos_user_security:
     resource: "@FOSUserBundle/Resources/config/routing/security.xml"
+    prefix: /admin
 
 fos_user_profile:
     resource: "@FOSUserBundle/Resources/config/routing/profile.xml"
